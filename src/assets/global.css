@@ -28,6 +28,18 @@ body {
   color: white;
 }
 
+/* @media (min-width: 768px) {
+  .hero-text {
+    top: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-text::after {
+    top: 300px;
+  }
+} */
+
 .hero-box {
   width: 100%;
   height: auto;

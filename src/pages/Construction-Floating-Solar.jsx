@@ -12,17 +12,27 @@ export const ConstructionProcessFS = () => {
 
   return (
     <Layout>
-      <section className="h-80 bg-header pt-40">
-        <div className="container mx-10 lg:mx-40">
+      <section className="h-1/2 bg-header pt-40">
+        <div className="w-screen px-10 lg:px-40">
           <h1
             className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-white"
             data-aos="fade-right"
           >
             Construction Process<span className="accent-text">.</span>
           </h1>
+          <div className="my-10">
+            <h3
+              className="accent text-center text-lg md:text-xl lg:text-2xl font-bold leading-tight lg:leading-snug p-5"
+              data-aos="fade-up"
+            >
+              Floating Solar PV project
+            </h3>
+          </div>
         </div>
       </section>
       <div className="mx-10 md:mx-32 lg:mx-56 my-24">
+        {/* Subject Project */}
+
         <h2
           className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight lg:leading-snug"
           data-aos="fade-up"
@@ -51,7 +61,7 @@ export const ConstructionProcessFS = () => {
             </p>
           </div>
           <div data-aos="fade-up">
-            <img src="/public/const1.jpg"></img>
+            <img src="/const1.jpg"></img>
           </div>
         </div>
 
@@ -80,7 +90,7 @@ export const ConstructionProcessFS = () => {
             </p>
           </div>
           <div data-aos="fade-up">
-            <img src="/public/const2.jpg"></img>
+            <img src="/const2.jpg"></img>
           </div>
 
           <div data-aos="fade-up">
@@ -96,7 +106,7 @@ export const ConstructionProcessFS = () => {
             </p>
           </div>
           <div data-aos="fade-up">
-            <img src="/public/const3.jpg"></img>
+            <img src="/const3.jpg"></img>
           </div>
         </div>
 
@@ -133,7 +143,7 @@ export const ConstructionProcessFS = () => {
             </p>
           </div>
           <div data-aos="fade-up">
-            <img src="/public/const4.jpg"></img>
+            <img src="/const4.jpg"></img>
           </div>
         </div>
 
@@ -167,7 +177,7 @@ export const ConstructionProcessFS = () => {
             </p>
           </div>
           <div data-aos="fade-up">
-            <img src="/public/const5.jpg"></img>
+            <img src="/const5.jpg"></img>
           </div>
         </div>
 
@@ -210,7 +220,7 @@ export const ConstructionProcessFS = () => {
             <div data-aos="fade-up">
               <img
                 className="max-h-60 w-full object-cover"
-                src="/public/const6.jpg"
+                src="/const6.jpg"
               ></img>
             </div>
             <div data-aos="fade-up">
@@ -223,7 +233,7 @@ export const ConstructionProcessFS = () => {
             <div data-aos="fade-up">
               <img
                 className="max-h-60 w-full object-cover"
-                src="/public/const7.jpg"
+                src="/const7.jpg"
               ></img>
             </div>
           </div>
@@ -241,7 +251,7 @@ export const ConstructionProcessFS = () => {
             <div data-aos="fade-up">
               <img
                 className="max-h-60 w-full object-cover"
-                src="/public/const8.jpg"
+                src="/const8.jpg"
               ></img>
             </div>
             <div data-aos="fade-up">
@@ -257,7 +267,7 @@ export const ConstructionProcessFS = () => {
             <div data-aos="fade-up">
               <img
                 className="max-h-60 w-full object-cover"
-                src="/public/const9.jpg"
+                src="/const9.jpg"
               ></img>
             </div>
           </div>
@@ -275,7 +285,7 @@ export const ConstructionProcessFS = () => {
             <div data-aos="fade-up">
               <img
                 className="max-h-60 w-full object-cover"
-                src="/public/const10.jpg"
+                src="/const10.jpg"
               ></img>
             </div>
             <div data-aos="fade-up">
@@ -289,7 +299,7 @@ export const ConstructionProcessFS = () => {
             <div data-aos="fade-up">
               <img
                 className="max-h-60 w-full object-cover"
-                src="/public/const11.jpg"
+                src="/const11.jpg"
               ></img>
             </div>
           </div>
@@ -319,7 +329,7 @@ export const ConstructionProcessFS = () => {
             </p>
           </div>
           <div data-aos="fade-up">
-            <img src="/public/image4.png"></img>
+            <img src="/image4.png"></img>
           </div>
         </div>
 
@@ -348,8 +358,8 @@ export const ConstructionProcessFS = () => {
             </p>
           </div>
           <div class="grid grid-cols-2 gap-4 my-10">
-            <img src="/public/const13.jpeg" data-aos="fade-up"></img>
-            <img src="/public/const12.jpg" data-aos="fade-up"></img>
+            <img src="/const13.jpeg" data-aos="fade-up"></img>
+            <img src="/const12.jpg" data-aos="fade-up"></img>
           </div>
         </div>
       </div>

@@ -12,91 +12,75 @@ export const ConstructionProcessTJS = () => {
 
   return (
     <Layout>
-      <section className="h-80 bg-header pt-40">
-        <div className="container mx-10 lg:mx-40">
+      <section className="h-1/2 bg-header pt-40">
+        <div className="w-screen px-10 lg:px-40">
           <h1
             className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-white"
             data-aos="fade-right"
           >
-            Construction Process TJS<span className="accent-text">.</span>
+            Construction Process<span className="accent-text">.</span>
           </h1>
+          <div className="my-10">
+            <h3
+              className="accent text-center text-lg md:text-xl lg:text-2xl font-bold leading-tight lg:leading-snug p-5"
+              data-aos="fade-up"
+            >
+              TJS 100 Mwp Ground mounted solar PV Farm Project
+            </h3>
+          </div>
         </div>
       </section>
       <div className="mx-10 md:mx-32 lg:mx-56 my-24">
-        <h2
-          className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight lg:leading-snug"
-          data-aos="fade-up"
-        >
-          Preparing & Unloading Materials
-        </h2>
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 my-10">
-          <div data-aos="fade-up">
-            <p>
-              The initial steps in a project involving procurement and delivery
-              of required materials typically entail planning the material
-              requirements, procuring from selected suppliers, on-time material
-              delivery, receipt and inspection of materials, secure storage,
-              inventory control, and coordination with the field team to ensure
-              project continuity.{" "}
-            </p>
-            <br></br>
-            <p>
-              Delivering materials and dropping them from the warehouse to the
-              project site begins with the procurement of necessary materials,
-              which are then properly packed and stored securely in the
-              company's warehouse. Following a delivery plan, the materials are
-              loaded onto trucks and transported to the project site. On-site,
-              the materials are dropped as per the plan, then inspected and
-              accepted to ensure they are in good condition.
-            </p>
-          </div>
-          <div data-aos="fade-up">
-            <img src="/public/const1.jpg"></img>
-          </div>
-        </div>
+        {/* Subject Project */}
 
         <h2
           className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight lg:leading-snug"
           data-aos="fade-up"
         >
-          Installation & Assembly
+          Stacking Out
         </h2>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 my-10">
           <div data-aos="fade-up">
             <p>
-              The assembly of PV (Photovoltaic) modules onto brackets involves a
-              series of steps to ensure proper installation. Initially, secure
-              the brackets firmly onto the designated mounting surface, whether
-              it's a roof or a ground-based structure, ensuring they are
-              correctly aligned and spaced for the PV modules. Subsequently,
-              carefully position and attach the PV modules onto these brackets,
-              ensuring secure anchoring and optimal positioning for sunlight
-              capture. Use appropriate hardware like bolts and clamps to fasten
-              the modules securely while maintaining adequate spacing for
-              airflow and cooling. It is vital to conduct thorough inspections,
-              confirming all connections and fastenings are tight to prevent
-              potential shifts or damage to the PV modules, and to perform
-              routine maintenance to uphold the solar array's performance.
+              The task of staking out foundation points for PV modules using
+              IRTK (Integrated Real-Time Kinematic) involves accurately
+              determining and marking foundation locations as per the solar
+              power plant project design. The IRTK tool allows surveyors to
+              navigate to predetermined coordinates in real-time and precisely
+              mark these points on-site. This process ensures that each
+              foundation point is placed according to the plan, minimizing
+              errors and enhancing time efficiency, thereby supporting the
+              successful installation of PV modules and the overall project
+              execution.
             </p>
           </div>
           <div data-aos="fade-up">
-            <img src="/public/const2.jpg"></img>
+            <img src="/projectTJS/tjs3.webp"></img>
           </div>
+        </div>
 
+        <h2
+          className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight lg:leading-snug"
+          data-aos="fade-up"
+        >
+          Screwpile Installation
+        </h2>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 my-10">
           <div data-aos="fade-up">
             <p>
-              Installation of one of the supplementary equipment in a solar
-              panel system, such as an inverter, involves steps like physically
-              mounting the inverter at an appropriate location, connecting DC
-              cables from the solar panels to the inverter, and linking the
-              inverter to the home's electrical system or the grid. Ensure to
-              follow the manufacturer's instructions and adhere to local
-              regulations, and consider using trained personnel if necessary to
-              ensure a safe and efficient installation.
+              The installation of screw pile foundations for PV modules involves
+              the process of drilling holes into the ground and inserting screw
+              piles to create a stable base. These steps include site
+              preparation, positioning, drilling screw piles into the ground
+              using machinery, precise alignment and leveling, and installation
+              of the PV module structures. Screw pile foundations offer ease of
+              installation, minimal environmental impact, and suitability for
+              various soil conditions, making them an ideal choice for PV module
+              installation projects.
             </p>
           </div>
           <div data-aos="fade-up">
-            <img src="/public/const3.jpg"></img>
+            <img src="/projectTJS/tjs12.webp"></img>
           </div>
         </div>
 
@@ -105,35 +89,25 @@ export const ConstructionProcessTJS = () => {
             className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight lg:leading-snug"
             data-aos="fade-up"
           >
-            Towing Sub Array
+            Assembling Bracket & PV Module
           </h2>
           <div className="my-10" data-aos="fade-up">
             <p>
-              The process of towing a subarray of PV (photovoltaic) modules
-              refers to the use of solar panel modules integrated with a towing
-              system (typically a boat or ship) to generate electrical power
-              while moving on water. This technology is applied in various water
-              bodies, such as lakes, rivers, or even the ocean, with the aim of
-              generating electrical energy that can be used for different
-              applications, including powering onboard equipment, providing
-              energy for sensors or other devices used in aquatic environments,
-              or supporting research and development needs in aquatic settings.
-              The process involves using PV modules typically integrated into a
-              floating structure or attached to a boat or vessel. As the vessel
-              or device carrying the PV subarray moves through the water, the
-              solar panels capture sunlight and convert it into electricity,
-              which can be stored in batteries or used directly to meet the
-              power requirements of connected devices. This can offer an
-              environmentally friendly and cost-effective solution to support
-              operations in aquatic environments that do not always have easy
-              access to conventional power sources. This process can be applied
-              in various contexts, including environmental monitoring,
-              hydrographic surveys, underwater surveys, water transportation,
-              and more, where reliable access to electricity is essential.
+              The assembly of brackets and installation of PV modules involves
+              preparing and installing the support structures and solar panels
+              at the solar power generation project site. The process includes
+              assembling the brackets, which serve as the supporting framework
+              for the solar panels, according to the predetermined design.
+              Subsequently, the PV modules are mounted onto the brackets using
+              appropriate equipment and techniques, ensuring they are securely
+              installed and aligned as per the specified requirements. This
+              process requires precision and care to ensure the solar panels are
+              properly installed and efficiently operate to generate electricity
+              from sunlight.
             </p>
           </div>
           <div data-aos="fade-up">
-            <img src="/public/const4.jpg"></img>
+            <img src="/projectTJS/tjs4.jpg"></img>
           </div>
         </div>
 
@@ -142,32 +116,23 @@ export const ConstructionProcessTJS = () => {
             className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight lg:leading-snug"
             data-aos="fade-up"
           >
-            Jointing Sub Array
+            Grounding Installation
           </h2>
           <div className="my-10" data-aos="fade-up">
             <p>
-              The process of connecting sub-arrays in a solar panel system
-              begins with tool and material preparation, which includes
-              gathering necessary equipment such as DC cables, MC4 connectors,
-              and cutting and stripping tools. After identifying the appropriate
-              sub-array based on the layout in the sub ID array, cut the DC
-              cable to the correct length and strip the ends to access the core.
-              Next, attach MC4 connectors to the cable ends and connect the
-              cables to the solar panels within the corresponding sub-array,
-              ensuring correct polarity. Proceed to connect the solar panels one
-              by one according to the specified layout. After completing all
-              connections, test them to ensure smooth electrical current flow
-              between the panels. Finally, protect all cables from physical
-              damage and extreme weather conditions, and conduct regular
-              monitoring and maintenance following the manufacturer's
-              instructions to ensure optimal performance of the solar panel
-              system. This process should be executed meticulously while
-              adhering to relevant electrical safety standards, and consultation
-              with experts or licensed technicians may be necessary if needed.
+              Grounding installation is the process of setting up an earthing
+              system that connects electrical components to the ground to
+              channel excess or leaking current, prevent electrical shock
+              hazards, and protect equipment from damage. This process involves
+              installing grounding rods or grounding plates into the earth,
+              connecting them with copper cables to electrical equipment, and
+              ensuring low soil resistance for effective current flow. Grounding
+              is crucial for safety and stability in electrical systems,
+              especially in large-scale projects like solar power plants (PLTS).
             </p>
           </div>
           <div data-aos="fade-up">
-            <img src="/public/const5.jpg"></img>
+            <img src="/projectTJS/tjs13.jpg"></img>
           </div>
         </div>
 
@@ -176,120 +141,314 @@ export const ConstructionProcessTJS = () => {
             className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight lg:leading-snug"
             data-aos="fade-up"
           >
-            Offshore Activity
+            Cable Pulling (Solar DC Cable)
           </h2>
           <div className="my-10" data-aos="fade-up">
             <p>
-              Electrical work activities in offshore locations, spanning from
-              cable installation to termination and testing, involve a series of
-              carefully executed steps adhering to stringent safety standards
-              and environmental protections. This includes the installation of
-              cables designed to withstand harsh marine conditions, the
-              placement of electrical devices such as switchgear and control
-              panels, and the meticulous termination of cables with connectors
-              and appropriate safeguards. The installation of electrical panels
-              and connections to power sources is also carried out with
-              precision. Upon completion, the system undergoes testing to ensure
-              all components function according to specifications, and regular
-              monitoring and maintenance are necessary to uphold system
-              performance. Certification and compliance with regulations and
-              safety standards are paramount throughout every stage of this
-              work, conducted in the challenging marine environment, demanding a
-              deep technical knowledge and substantial experience in the field.
+              Pulling solar DC cables refers to the process of pulling and
+              installing direct current (DC) cables that connect solar panels to
+              the inverter in a Solar Power Plant (PLTS) system. These cables
+              carry electrical energy from the solar panels to the inverter,
+              where it is converted into alternating current (AC). The process
+              involves laying out cable routes, pulling the cables through
+              conduits or trays, and ensuring a safe and neat installation for
+              efficient and uninterrupted power flow.
+            </p>
+          </div>
+          <div data-aos="fade-up">
+            <img src="/projectTJS/tjs5.jpg"></img>
+          </div>
+        </div>
+
+        <div className="my-10">
+          <h2
+            className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight lg:leading-snug"
+            data-aos="fade-up"
+          >
+            Cable Pulling (AC Cable)
+          </h2>
+          <div className="my-10" data-aos="fade-up">
+            <p>
+              Pulling solar DC cables refers to the process of pulling and
+              installing direct current (DC) cables that connect solar panels to
+              the inverter in a Solar Power Plant (PLTS) system. These cables
+              carry electrical energy from the solar panels to the inverter,
+              where it is converted into alternating current (AC). The process
+              involves laying out cable routes, pulling the cables through
+              conduits or trays, and ensuring a safe and neat installation for
+              efficient and uninterrupted power flow. SOLAR DC CABLE AC CABLE
+              The pulling of AC cables refers to the process of pulling and
+              installing alternating current (AC) cables that connect the
+              inverter to the distribution panel or main electrical grid in a
+              power system. These AC cables are responsible for transmitting
+              electricity that has been converted from direct current (DC) by
+              the inverter into alternating current (AC), which can then be used
+              to power electrical equipment or fed into the grid. The process of
+              pulling AC cables involves several steps, including planning the
+              cable route, pulling the cables through trays (cable pathways) or
+              conduits (protective pipes), and ensuring the installation adheres
+              to safety and quality standards. Each cable must be securely
+              installed, protected from potential physical damage such as
+              moisture or impact, and properly laid out to ensure a stable and
+              safe flow of electricity.
+            </p>
+          </div>
+          <div data-aos="fade-up">
+            <img src="/projectTJS/tjs14.jpg"></img>
+          </div>
+        </div>
+
+        <div className="my-10">
+          <h2
+            className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight lg:leading-snug"
+            data-aos="fade-up"
+          >
+            Inverter Installation
+          </h2>
+          <div className="my-10" data-aos="fade-up">
+            <p>
+              The installation of an inverter is the process of setting up and
+              connecting the inverter to the electrical system. The inverter
+              functions to convert direct current (DC) produced by sources such
+              as solar panels into alternating current (AC) that can be used by
+              electrical equipment or fed into the electrical grid. This process
+              includes placing the inverter in a safe location, connecting the
+              DC cables from the energy source, linking the AC cables to the
+              distribution panel, as well as configuring and testing to ensure
+              the inverter operates properly and safely.
+            </p>
+          </div>
+          <div data-aos="fade-up">
+            <img src="/projectTJS/tjs15.jpg"></img>
+          </div>
+        </div>
+
+        <div className="my-10">
+          <h2
+            className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight lg:leading-snug"
+            data-aos="fade-up"
+          >
+            Termination
+          </h2>
+          <div className="my-10" data-aos="fade-up">
+            <p>
+              DC cable termination involves connecting the ends of cables from
+              the solar panels to the inverter terminals using appropriate DC
+              connectors. This process ensures that the direct current (DC) from
+              the solar panels is safely and reliably transmitted to the
+              inverter, which will convert it to alternating current (AC). AC
+              cable termination involves connecting the cables from the inverter
+              output to the transformer using suitable AC connectors. This
+              ensures efficient and safe transmission of alternating current
+              (AC) from the inverter to the transformer for the necessary power
+              conversion within the electrical system. Both termination
+              processes are crucial for maintaining the integrity and safety of
+              the electrical system.
+            </p>
+          </div>
+          <div data-aos="fade-up">
+            <img src="/projectTJS/tjs6.jpg"></img>
+          </div>
+        </div>
+
+        <div className="my-10">
+          <h2
+            className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight lg:leading-snug"
+            data-aos="fade-up"
+          >
+            Supporting Component
+          </h2>
+
+          <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 my-10">
+            <div data-aos="fade-up">
+              <h4 className="text-lg font-bold">LIGHTNING ARRESTER</h4>
+              <p>
+                Installing a lightning arrester involves setting up a device
+                designed to protect electrical systems from damage caused by
+                lightning strikes. The lightning arrester is strategically
+                placed on structures, such as buildings or electrical networks,
+                and works by diverting the high-voltage currents of a lightning
+                strike safely into the ground. This helps prevent damage to
+                electrical equipment, reduces the risk of fires, and ensures the
+                safety and reliability of the electrical system. Proper
+                installation and maintenance of the lightning arrester are
+                essential to provide effective protection and minimize the risk
+                of lightning-related incidents.
+              </p>
+            </div>
+            <div data-aos="fade-up">
+              <img
+                className="max-h-96 w-full object-cover"
+                src="/projectTJS/tjs16.jpg"
+              ></img>
+            </div>
+
+            <div data-aos="fade-up">
+              <h4 className="text-lg font-bold">CCTV</h4>
+              <p>
+                CCTV installation** involves mounting CCTV cameras on poles
+                erected at strategic locations. This process includes creating
+                and reinforcing the foundation for the pole, correctly
+                installing the pole into the foundation, and attaching the CCTV
+                camera at the top of the pole. Additionally, cables and
+                connections for the CCTV system must be neatly organized and
+                installed to ensure optimal image quality and functionality.
+                Proper installation ensures that the cameras operate effectively
+                and provide comprehensive surveillance coverage.
+              </p>
+            </div>
+            <div data-aos="fade-up">
+              <img
+                className="max-h-96 w-full object-cover"
+                src="/projectTJS/tjs17.jpg"
+              ></img>
+            </div>
+          </div>
+        </div>
+
+        <div className="my-10">
+          <h2
+            className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight lg:leading-snug"
+            data-aos="fade-up"
+          >
+            Testing Pre commissioning
+          </h2>
+          <div className="my-10" data-aos="fade-up">
+            <p>
+              Pre-commissioning on a 100 MWp ground-mounted solar power project
+              (PLTS) involves preliminary checks and tests conducted before the
+              system is fully operational. This phase includes inspecting and
+              verifying the installation of electrical components, such as solar
+              panels, inverters, and wiring, as well as ensuring that all
+              systems are properly connected and functioning. It also involves
+              testing individual components and system performance to identify
+              and resolve any issues. The goal of pre-commissioning is to ensure
+              that the system meets design specifications and is ready for the
+              final commissioning and operation.
             </p>
           </div>
           <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 my-10">
             <div data-aos="fade-up">
-              <h4 className="text-lg font-bold">INSPECTION</h4>
+              <h4 className="text-lg font-bold">GROUNDING RESISTANCE TEST</h4>
               <p>
-                Inspection is a systematic process of conducting examinations,
-                evaluations, and assessments of something to assess its quality,
-                compliance, safety, or other specific criteria.
+                Grounding resistance test using an earth tester measures the
+                effectiveness of a grounding system by checking how well it
+                conducts electricity into the ground. This test ensures the
+                grounding system has a low enough resistance to protect
+                electrical equipment and ensure safety.
               </p>
             </div>
             <div data-aos="fade-up">
               <img
                 className="max-h-60 w-full object-cover"
-                src="/public/const6.jpg"
+                src="/projectTJS/tjs18.jpg"
               ></img>
             </div>
             <div data-aos="fade-up">
-              <h4 className="text-lg font-bold">TIGHTHINING</h4>
+              <h4 className="text-lg font-bold">
+                PULL OUT COMPRESSION SCREWPILE TEST
+              </h4>
               <p>
-                Tightening a bolt is the act of ensuring that the bolt or screw
-                used in various applications is securely and safely fastened.
+                Pull out and compression tests on screw piles use a chain block
+                and hydraulic jack to measure their load-bearing capacity. The
+                pull out test checks how much pulling force the pile can
+                withstand before being removed from the ground, while the
+                compression test assesses how much compressive force the pile
+                can handle without failing.
               </p>
             </div>
             <div data-aos="fade-up">
               <img
                 className="max-h-60 w-full object-cover"
-                src="/public/const7.jpg"
-              ></img>
-            </div>
-          </div>
-          <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 my-10">
-            <div data-aos="fade-up">
-              <h4 className="text-lg font-bold">TESTING</h4>
-              <p>
-                Testing is the process of conducting an examination or
-                evaluation of an object or system to assess its performance,
-                check compliance with standards or specific requirements, and
-                ensure that the object or system functions properly according to
-                predetermined objectives.
-              </p>
-            </div>
-            <div data-aos="fade-up">
-              <img
-                className="max-h-60 w-full object-cover"
-                src="/public/const8.jpg"
-              ></img>
-            </div>
-            <div data-aos="fade-up">
-              <h4 className="text-lg font-bold">INSTALLATION CHECK</h4>
-              <p>
-                Installation inspection is the process of systematically
-                evaluating and examining an installed system, equipment, or
-                structure to ensure that it has been set up correctly, complies
-                with relevant regulations, standards, and specifications, and
-                functions as intended.
-              </p>
-            </div>
-            <div data-aos="fade-up">
-              <img
-                className="max-h-60 w-full object-cover"
-                src="/public/const9.jpg"
+                src="/projectTJS/tjs19.jpg"
               ></img>
             </div>
           </div>
           <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 my-10">
             <div data-aos="fade-up">
-              <h4 className="text-lg font-bold">TERMINATION</h4>
+              <h4 className="text-lg font-bold">
+                CONTINUITY & VOLTAGE TEST SOLAR DC CABLE
+              </h4>
               <p>
-                Termination a cable involves the precise process of preparing
-                the cable end by stripping its outer insulation, trimming and
-                exposing the inner conductors, and then securely connecting
-                these conductors to the relevant terminal or connector, ensuring
-                a reliable electrical or data connection.
+                Using a multimeter, continuity and voltage tests on solar DC
+                cables check if the cable is intact (continuity) and measure the
+                voltage to ensure it’s within the expected range.
               </p>
             </div>
             <div data-aos="fade-up">
               <img
                 className="max-h-60 w-full object-cover"
-                src="/public/const10.jpg"
+                src="/projectTJS/tjs8.jpg"
               ></img>
             </div>
             <div data-aos="fade-up">
-              <h4 className="text-lg font-bold">REPAIR SUB ARRAY</h4>
+              <h4 className="text-lg font-bold">
+                INSULATION RESISTANCE TEST SOLAR DC CABLE
+              </h4>
               <p>
-                Repairing a sub array floater involves a series of critical
-                steps to address issues or damage that may occur in the floating
-                component
+                Insulation resistance test on solar DC cables using a megger
+                measures the resistance of the cable’s insulation. This test
+                ensures that the insulation is effective and there are no leaks
+                or faults, helping to prevent electrical failures and ensure
+                safe operation.
               </p>
             </div>
             <div data-aos="fade-up">
               <img
                 className="max-h-60 w-full object-cover"
-                src="/public/const11.jpg"
+                src="/projectTJS/tjs20.jpg"
+              ></img>
+            </div>
+          </div>
+          <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 my-10">
+            <div data-aos="fade-up">
+              <h4 className="text-lg font-bold">
+                CURRENT SHORT CIRCUIT TEST SOLAR DC CABLE
+              </h4>
+              <p>
+                Current short circuit test on solar DC cables using a Seaward
+                Utility Pro checks the cable's ability to handle high current
+                conditions without failure. The test simulates a short circuit
+                to ensure the cable can safely manage short-circuit currents and
+                maintain its integrity under stress.
+              </p>
+            </div>
+            <div data-aos="fade-up">
+              <img
+                className="max-h-60 w-full object-cover"
+                src="/projectTJS/tjs9.jpg"
+              ></img>
+            </div>
+            <div data-aos="fade-up">
+              <h4 className="text-lg font-bold">CONTINUITY TEST AC CABLE</h4>
+              <p>
+                Continuity test on AC cables using a multimeter checks if there
+                is a complete electrical path through the cable. This test
+                ensures there are no breaks or faults, confirming the cable is
+                properly connected and ready for use.
+              </p>
+            </div>
+            <div data-aos="fade-up">
+              <img
+                className="max-h-60 w-full object-cover"
+                src="/projectTJS/tjs21.jpg"
+              ></img>
+            </div>
+            <div data-aos="fade-up">
+              <h4 className="text-lg font-bold">
+                INSULATION RESISTANCE TEST AC CABLE
+              </h4>
+              <p>
+                Insulation resistance test on AC cables using a megger measures
+                the effectiveness of the cable's insulation. This test ensures
+                that the insulation is intact and has a high resistance,
+                preventing electrical leaks and maintaining safe operation.
+              </p>
+            </div>
+            <div data-aos="fade-up">
+              <img
+                className="max-h-60 w-full object-cover"
+                src="/projectTJS/tjs10.jpg"
               ></img>
             </div>
           </div>
@@ -300,26 +459,22 @@ export const ConstructionProcessTJS = () => {
             className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight lg:leading-snug"
             data-aos="fade-up"
           >
-            Quality Assurance and Quality Control
+            Drainage Installation
           </h2>
           <div className="my-10">
             <p data-aos="fade-up">
-              Quality Assurance/Quality Control (QA/QC) at PT Berkat Bersatu is
-              a systematic approach implemented to ensure that products and
-              services meet established quality standards. PT Berkat Bersatu is
-              committed to maintaining a high level of quality across all
-              aspects of their work, whether it be in construction,
-              manufacturing, or the services they provide. Through QA/QC, they
-              implement tested and proven processes to prevent defects, identify
-              issues, and ensure that the products or services provided align
-              with defined standards and meet customer expectations. Thus, QA/QC
-              at PT Berkat Bersatu plays a crucial role in ensuring customer
-              satisfaction, safety, and consistent quality in every aspect of
-              their business.
+              Installing drainage using U- ditch** involves setting up a U-
+              shaped drainage channel to direct water away from specific areas,
+              such as roads or construction sites. The process includes
+              excavating the trench, positioning the U-ditch properly, and
+              backfilling around it to ensure stability. The U- ditch
+              effectively manages and channels water flow, preventing water
+              accumulation and reducing the risk of damage to the surrounding
+              area.
             </p>
           </div>
           <div data-aos="fade-up">
-            <img src="/public/image4.png"></img>
+            <img src="/projectTJS/tjs11.jpg"></img>
           </div>
         </div>
 
@@ -328,28 +483,52 @@ export const ConstructionProcessTJS = () => {
             className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight lg:leading-snug"
             data-aos="fade-up"
           >
-            Visit Work Result
+            Road Access
           </h2>
           <div className="my-10">
             <p data-aos="fade-up">
-              Site visit to assess work outcomes is an activity in which an
-              individual or a team goes to observe and evaluate the results of
-              completed or ongoing work or projects. The purpose of such visits
-              is to conduct inspections, monitoring, or assessments of the
-              quality, success, or compliance of a project or work against
-              established standards, specifications, or objectives. The findings
-              from these visits can serve as a basis for making decisions,
-              improvements, or recommendations for the future. Site visits often
-              involve physical inspections, testing, interviews, and
-              documentation, depending on the nature of the work or project
-              being evaluated. This is a crucial step in the quality assurance
-              and quality control process in various fields, such as
-              construction, manufacturing, healthcare, or research projects.
+              Creating access roads involves constructing pathways that can
+              accommodate vehicle traffic, either using stone or concrete. For
+              stone roads, the process includes selecting and arranging stones
+              to form a durable and stable surface. This involves excavation,
+              leveling the base, and carefully placing stones to ensure the road
+              can support traffic loads. For concrete roads, the process
+              involves pouring and compacting a concrete mix into molds to
+              create a strong and long-lasting surface. This includes preparing
+              the area, pouring the concrete, and allowing it to cure until it
+              reaches the required strength. Both methods aim to provide a safe
+              and functional access road.
             </p>
           </div>
           <div class="grid grid-cols-2 gap-4 my-10">
-            <img src="/public/const13.jpeg" data-aos="fade-up"></img>
-            <img src="/public/const12.jpg" data-aos="fade-up"></img>
+            <img src="/projectTJS/tjs22.jpg" data-aos="fade-up"></img>
+            <img src="/projectTJS/tjs23.jpg" data-aos="fade-up"></img>
+          </div>
+        </div>
+
+        <div className="my-10">
+          <h2
+            className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight lg:leading-snug"
+            data-aos="fade-up"
+          >
+            Visit Work Results
+          </h2>
+          <div className="my-10">
+            <p data-aos="fade-up">
+              The 100 Megawatt peak (MWp) solar power plant, located in the
+              Bukit Indah Industrial City (BIC), Purwakarta, West Java, has been
+              officially inaugurated by its owner, PT PLN (Persero), through its
+              subsidiary PLN Batam, in partnership with PT Aruna Cahaya Pratama
+              (Aruna PV). PT Berkat Bersatu played a vital role as a key
+              subcontractor in the execution of this project, contributing
+              significantly to the installation and completion phases. Their
+              involvement ensured that the project was executed as planned and
+              met the established quality standards.
+            </p>
+          </div>
+          <div class="grid grid-cols-2 gap-4 my-10">
+            <img src="/projectTJS/tjs24.jpg" data-aos="fade-up"></img>
+            <img src="/projectTJS/tjs25.jpg" data-aos="fade-up"></img>
           </div>
         </div>
       </div>

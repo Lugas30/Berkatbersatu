@@ -31,19 +31,20 @@ export const Contact = () => {
               <div className="bg-dark w-24 mb-10" data-aos="fade-up">
                 <img src="/logo.png"></img>
               </div>
-              <div className="align-middle mb-5">
+              <div className="align-middle mb-10">
                 <img src="/phone.png" className="w-8 mb-2"></img>
                 <p className="text-lg">+62 823 5037 0695</p>
                 <p className="text-lg">+62 812 8123 8421</p>
               </div>
-              <div className="align-middle mb-5">
+              <div className="align-middle mb-10">
                 <img src="/email.png" className="w-8 mb-2"></img>
                 <p className="text-lg">contact@berkatbersatu.com</p>
               </div>
-              <div className="align-middle mb-5">
+              <div className="align-middle mb-10">
                 <img src="/location.png" className="w-8 mb-2"></img>
                 <p className="text-lg">
-                  Taman Jaya Asri Blok.C2 NO,09. Batam Kepulauan Riau.
+                  Ruko Blok G1 NO 5-6 Mall Top 100 Tembesi, Kec. Sagulung, Kota
+                  Batam, Kepulauan Riau 29424, Indonesia.
                 </p>
               </div>
             </div>

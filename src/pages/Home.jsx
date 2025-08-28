@@ -15,10 +15,12 @@ export const Home = () => {
       <section>
         <img
           src="/Main Slide Mob.jpg"
+          alt="Main image for mobile view showcasing solar power plants"
           className="w-full max-h-screen object-cover lg:hidden"
         ></img>
         <img
           src="/Main Slide2.jpg"
+          alt="Main image for desktop view showcasing solar power plants"
           className="hidden lg:block w-full max-h-screen object-cover"
         ></img>
 
@@ -26,12 +28,12 @@ export const Home = () => {
           <div className="hero-text">
             <div className="box-inner">
               <div className="box-content">
-                <h2
+                <h1
                   className="font-extrabold text-4xl md:text-5xl lg:text-6xl uppercase leading-tight"
                   data-aos="fade-left"
                 >
                   General<br></br>Contractor
-                </h2>
+                </h1>
                 <p className="leading-7">
                   specializing construction <br></br>of solar power plants
                 </p>
@@ -68,39 +70,49 @@ export const Home = () => {
                 </p>
               </div>
               <div className="mt-8">
-                <a className="btn-site">See Project</a>
+                <a className="btn-site" href="/Project">
+                  See Project
+                </a>
               </div>
             </div>
             <div className="my-6" data-aos="fade-up">
-              <img src="/Image1.png"></img>
+              <img
+                src="/Image1.png"
+                alt="Solar power plant construction site"
+              ></img>
             </div>
           </div>
         </div>
       </section>
+
       <section>
         <div className="mx-10 md:mx-32 lg:mx-56 my-24">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight">
             <span className="accent pb-2 px-2">Why us?</span>
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 my-28">
-            <Link to="/WhyUs" data-aos="fade-up">
+            <Link to="/WhyUs" aria-label="safety toolbox" data-aos="fade-up">
               <img
                 src="/worker1.png"
+                alt="Safety toolbox with safety equipment for workers"
                 className="w-28 motion-worker skeleton"
               ></img>
               <h3 className="pt-8 pb-10 text-xl font-extrabold">
-                Saftey Toolbox
+                Safety Toolbox
               </h3>
               <p className="text-gray-500 text-base leading-loose mb-6">
                 The primary purpose of Toolbox Meetings within every work team
                 is to prioritize safety and foster a culture of safety
                 consciousness.
               </p>
-              <a className="uppercase font-extrabold text-xs ms">Read more</a>
+              <span className="uppercase font-extrabold text-xs ms">
+                Read more
+              </span>
             </Link>
-            <Link to="/WhyUs" data-aos="fade-up">
+            <Link to="/WhyUs" aria-label="Trained Workers" data-aos="fade-up">
               <img
                 src="/worker2.png"
+                alt="Trained workers undergoing safety training"
                 className="w-28 motion-worker skeleton"
               ></img>
               <h3 className="pt-8 pb-10 text-xl font-extrabold">
@@ -111,11 +123,14 @@ export const Home = () => {
                 "ESDM" is typically related to the energy and mineral resource
                 industry and Offshore training.
               </p>
-              <a className="uppercase font-extrabold text-xs">Read more</a>
+              <span className="uppercase font-extrabold text-xs">
+                Read more
+              </span>
             </Link>
-            <Link to="/WhyUs" data-aos="fade-up">
+            <Link to="/WhyUs" aria-label="Expert Manpower" data-aos="fade-up">
               <img
                 src="/worker3.png"
+                alt="Expert manpower collaborating with international experts"
                 className="w-28 motion-worker skeleton"
               ></img>
               <h3 className="pt-8 pb-10 text-xl font-extrabold">
@@ -126,7 +141,9 @@ export const Home = () => {
                 China to build the floating solar power project "Floating Solar
                 PV"
               </p>
-              <a className="uppercase font-extrabold text-xs">Read more</a>
+              <span className="uppercase font-extrabold text-xs">
+                Read more
+              </span>
             </Link>
           </div>
         </div>
@@ -147,30 +164,35 @@ export const Home = () => {
             <div className="flex items-center justify-center">
               <img
                 src="/certif/crt1.png"
+                alt="Certification for SBU Pembangkit Tenaga Listrik"
                 className="w-full h-32 object-contain"
               />
             </div>
             <div className="flex items-center justify-center">
               <img
                 src="/certif/crt2.png"
+                alt="Certification for SBU Pembangkit Tenaga Listrik"
                 className="w-full h-32 object-contain"
               />
             </div>
             <div className="flex items-center justify-center">
               <img
                 src="/certif/crt3.png"
+                alt="Certification for construction services"
                 className="w-full h-32 object-contain"
               />
             </div>
             <div className="flex items-center justify-center">
               <img
                 src="/certif/crt4.png"
+                alt="Certification for solar power projects"
                 className="w-full h-32 object-contain"
               />
             </div>
           </div>
         </div>
       </section>
+
       <section>
         <div className="cta-section pt100 pb50">
           <div className="image-box" data-aos="fade-right"></div>
@@ -206,7 +228,7 @@ export const Home = () => {
                   operational activities to minimize potential hazards to
                   employees and the environment. Compliance with relevant
                   regulations, standards, and active engagement with regulatory
-                  authorities is integral, longside a commitment to
+                  authorities is integral, alongside a commitment to
                   environmental conservation and reducing the adverse impacts of
                   operations on ecosystems and natural resources.
                 </p>
@@ -215,6 +237,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
+
       {/* Update terbaru */}
       <section>
         <div className="mx-10 md:mx-32 lg:mx-56 pt-0 md:pt-24">
@@ -259,12 +282,16 @@ export const Home = () => {
               </div>
             </div>
             <div className="my-6 order-first lg:order-last" data-aos="fade-up">
-              <img src="/projectTJS/tjs0.png"></img>
+              <img
+                src="/projectTJS/tjs0.png"
+                alt="Construction of TJS 100 MWp Ground mounted solar PV farm"
+              ></img>
             </div>
           </div>
           <hr className="mt-24"></hr>
         </div>
       </section>
+
       {/* Update terbaru End */}
 
       <section>
@@ -301,22 +328,27 @@ export const Home = () => {
               </div>
             </div>
             <div className="my-6 order-first lg:order-last" data-aos="fade-up">
-              <img src="/Image3.png"></img>
+              <img
+                src="/Image3.png"
+                alt="Floating Solar PV panels installed on water"
+              ></img>
             </div>
           </div>
           <hr className="mt-24"></hr>
         </div>
       </section>
+
       <section>
         <div className="my-24 mx-10 lg:mx-0">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight text-center">
             Quality Assurance & Control
           </h2>
-          <div class="grid grid-cols-1 lg:grid-cols-2 my-20">
+          <div className="grid grid-cols-1 lg:grid-cols-2 my-20">
             <div className="">
               <img
                 src="/Image4.png"
                 className="bg-cover h-auto w-full overflow-hidden"
+                alt="Quality assurance and control in solar PV project"
                 data-aos="fade-right"
               ></img>
             </div>
@@ -345,10 +377,60 @@ export const Home = () => {
               <div className="mt-10 right-0">
                 <img
                   src="/control-check.png"
+                  alt="Control and quality check in solar PV project"
                   className="w-1/6"
                   data-aos="fade-right"
                 ></img>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="mx-10 md:mx-32 lg:mx-56 pt-0 md:pt-24">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight">
+            <span className="accent pb-2 px-2">Own Ship Assets</span>
+          </h2>
+        </div>
+        <div className="mx-10 md:mx-32 lg:mx-56 my-24">
+          <div className="grid grid-cols-1 gap-6">
+            <div
+              className="col-span-2 order-2 md:order-first"
+              data-aos="fade-right"
+            >
+              <div className="text-base mr-8">
+                <p className="leading-loose text-gray-500">
+                  As part of our commitment to delivering excellence as a
+                  professional contractor— especially in Floating Solar Power
+                  Plant (PLTS Terapung) projects—our company owns and operates
+                  its own ship assets. These vessels serve as a critical
+                  logistical backbone, enabling efficient transport of
+                  materials, equipment, and personnel across inland and coastal
+                  water-based project sites. Our in-house marine capabilities
+                  not only enhance operational flexibility and speed but also
+                  ensure project timelines and quality standards are
+                  consistently met.
+                </p>
+              </div>
+            </div>
+            <div className="my-6 grid grid-cols-2 gap-6" data-aos="fade-up">
+              <img
+                src="/ship1.jpg"
+                alt="Solar power plant construction site"
+              ></img>
+              <img
+                src="/ship2.jpg"
+                alt="Solar power plant construction site"
+              ></img>
+              <img
+                src="/ship3.jpg"
+                alt="Solar power plant construction site"
+              ></img>
+              <img
+                src="/ship4.jpg"
+                alt="Solar power plant construction site"
+              ></img>
             </div>
           </div>
         </div>

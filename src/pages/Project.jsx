@@ -118,7 +118,7 @@ export const Project = () => {
           </div>
 
           <div className="my-8 text-center" data-aos="fade-up">
-            <Link to="/ConstructionProcess" className="btn-site">
+            <Link to="/Construction-TJS" className="btn-site">
               <p className="px-8">See Construction Process</p>
             </Link>
           </div>
@@ -221,11 +221,57 @@ export const Project = () => {
           </div>
 
           <div className="my-8 text-center" data-aos="fade-up">
-            <Link to="/ConstructionProcess" className="btn-site">
+            <Link to="/Construction-Floating-Solar" className="btn-site">
               <p className="px-8">See Construction Process</p>
             </Link>
           </div>
           <hr></hr>
+        </div>
+
+        <div className="mx-10 md:mx-32 lg:mx-56 py-24">
+          <div className=" pt-0 md:pt-24">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight">
+              <span className="accent pb-2 px-2">On Going Project</span>
+            </h2>
+          </div>
+          <div class="grid grid-cols-2 gap-4 my-10">
+            <div className="">
+              <h3
+                className="text-xl font-extrabold leading-tight mt-10 mb-5"
+                data-aos="fade-up"
+              >
+                TEMBESI 35 MWAC
+              </h3>
+              <img src="/ongo1.jpg" data-aos="fade-up"></img>
+            </div>
+            <div className="">
+              <h3
+                className="text-xl font-extrabold leading-tight mt-10 mb-5"
+                data-aos="fade-up"
+              >
+                KARANGKATES 100 MWAC
+              </h3>
+              <img src="/ongo2.jpg" data-aos="fade-up"></img>
+            </div>
+            <div className="">
+              <h3
+                className="text-xl font-extrabold leading-tight mt-10 mb-5"
+                data-aos="fade-up"
+              >
+                SAGULING 60 MWAC
+              </h3>
+              <img src="/ongo3.jpg" data-aos="fade-up"></img>
+            </div>
+            <div className="">
+              <h3
+                className="text-xl font-extrabold leading-tight mt-10 mb-5"
+                data-aos="fade-up"
+              >
+                KIIC 35 MWAC
+              </h3>
+              <img src="/ongo4.jpeg" data-aos="fade-up"></img>
+            </div>
+          </div>
         </div>
       </section>
     </Layout>

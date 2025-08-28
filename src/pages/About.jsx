@@ -45,8 +45,8 @@ export const About = () => {
               </p>
             </div>
             <div className="mt-8">
-              <Link to="/ConstructionProcess" className="btn-site">
-                <p className="px-8">See Construction Process</p>
+              <Link to="/Project" className="btn-site">
+                <p className="px-8">See Our Project</p>
               </Link>
             </div>
           </div>
